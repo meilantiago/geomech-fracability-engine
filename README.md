@@ -142,6 +142,17 @@ Output:
 ======================================================================
 ```
 
+### Launch Interactive Engineering Workstation (Streamlit)
+To launch the sober, desktop-grade reservoir geomechanics workstation:
+
+```bash
+streamlit run src/app/main.py
+```
+- **Continuous 7-Track Composite Log:** Interactive Plotly visualizer with synchronized depth zoom, pan, and cursor readout.
+- **Parametric Sensitivity:** Live tuning of Biot poroelastic coefficient ($\alpha$), tectonic strains ($\epsilon_x, \epsilon_y$), and nominal stage lengths.
+- **Completion Audit:** Real-time side-by-side comparison table between blind geometric spacing and engineered sweet-spotting.
+- **Field Deliverables:** Direct export of completion schedules (`.csv`) and 1D geomechanical datasets (`.parquet`).
+
 ### Python API Usage
 
 ```python
